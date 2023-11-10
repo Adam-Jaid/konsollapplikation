@@ -1,5 +1,5 @@
-# konsollapplikation
-## User Management App
+
+# User Management App
 
 En enkel Java-konsollapplikation för hantering av användare.
 
@@ -15,43 +15,16 @@ För att bygga och köra applikationen i en Linux-miljö, följ dessa steg:
 
 Öppna terminalen och klona detta Git-repository till din lokala maskin:
 
-How add Git
+##### How add Git
 git clone (https://github.com/din-anvandarnamn/user-management-app.git)
 
 Öppna projektet i din Java IDE (t.ex. IntelliJ IDEA eller Eclipse).
 
-Kompilera och kör `Main`-klassen.
+###### Kompilera och kör `Main`-klassen.
 
-public class Main {
-    public static void main(String[] args) {
-        // Skapa en användarlista
-        UserList userList = new UserList();
 
-        // Skapa några användare
-        User user1 = new User(1, "Adam jaidoury", "Adam.jaidoury@gmail.com");
-        User user2 = new User(2, "Adam jaidoury2", "Adam.jaidoury2@gmail.com");
-
-        // Lägg till användare i listan
-        userList.addUser(user1);
-        userList.addUser(user2);
-
-        // Sök efter användare baserat på id
-        User foundUser;
-        foundUser = userList.getUserById(1);
-        System.out.println("Found User: " + foundUser.getName());
-
-        // Sortera användarna baserat på namn
-        userList.sortUsersByName();
-
-        // Skriv ut alla användare efter sortering
-        for (User user : userList.userList()) {
-            System.out.println(user.getName());
-        }
-    }
-}
-
-<img src="" width= 300>
-<img src="" width= 300>
-<img src="" width= 300>
-<img src="" width= 300>
+<img src="https://github.com/Adam-Jaid/konsollapplikation/assets/144675015/ab10e475-7051-4ef1-9dc9-20910b9cd8c6" width= 500>
+<img src="https://github.com/Adam-Jaid/konsollapplikation/assets/144675015/73e75101-3713-4cb7-8ed6-caf14ab29c6f" width= 500>
+<img src="https://github.com/Adam-Jaid/konsollapplikation/assets/144675015/d70b9220-8db5-424f-8ff8-0afa2cb5602a" width= 500>
+<img src="https://github.com/Adam-Jaid/konsollapplikation/assets/144675015/bcedcb4b-43d6-4f4e-908d-d4f12a9502e1" width= 500>
 
